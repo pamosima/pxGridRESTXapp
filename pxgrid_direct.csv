@@ -1,0 +1,11 @@
+sys_updated_on,sys_id,u_macaddress,u_security_group_tag,u_sgt_name,u_vlan_name,u_hostname,u_community_group,u_ci_status
+"2024-05-08 09:15:22","00021059db6b01101f0f174b13961910","40:D8:55:12:34:56","cts:security-group-tag=0009-5","cts:sgt-name=Building_Management","VLAN100","BMS-SYS01","Siemens-Device","Operational"
+"2024-05-08 09:16:33","00021059db6b01101f0f174b13961901","AC:CC:8E:12:34:56","cts:security-group-tag=0010-5","cts:sgt-name=Security_Camera","VLAN100","CAM-PC01","Axis-Device","Operational"
+"2024-05-08 09:17:44","00021059db6b01101f0f174b13961902","00:D0:2D:12:34:57","cts:security-group-tag=0012-6","cts:sgt-name=Access_Control","VLAN100","ACC-CTRL01","Honeywell-Device","Operational"
+"2024-05-08 09:18:55","00021059db6b01101f0f174b13961903","00:01:30:12:34:58","cts:security-group-tag=0014-7","cts:sgt-name=HVAC_System","VLAN100","HVAC-SYS01","JohnsonControls-Device","Operational"
+"2024-05-08 09:20:06","00021059db6b01101f0f174b13961904","A0:8C:FD:12:34:59","cts:security-group-tag=0016-8","cts:sgt-name=Printers_Group","VLAN100","PRNT-SRV01","HP-Device","Operational"
+"2024-05-08 09:21:17","00021059db6b01101f0f174b13961905","B8:CA:3A:12:34:5A","cts:security-group-tag=0018-9","cts:sgt-name=Workstations","VLAN100","WS-PC10","Dell-Device","Operational"
+"2024-05-08 09:22:28","00021059db6b01101f0f174b13961906","50:32:75:12:34:5B","cts:security-group-tag=0020-0","cts:sgt-name=Mobile_Devices","VLAN100","MOB-DEV01","Samsung-Device","Operational"
+"2024-05-08 09:23:39","00021059db6b01101f0f174b13961907","D0:25:98:12:34:5C","cts:security-group-tag=0022-1","cts:sgt-name=Tablets_Group","VLAN100","TAB-PC01","Apple-Device","Operational"
+"2024-05-08 09:24:50","00021059db6b01101f0f174b13961908","00:1E:49:12:34:5D","cts:security-group-tag=0024-2","cts:sgt-name=Network_Equipment","VLAN100","NET-EQ01","Cisco-Device","Operational"
+"2024-05-08 09:26:01","00021059db6b01101f0f174b13961909","00:50:C2:12:34:5E","cts:security-group-tag=0026-3","cts:sgt-name=Lab_Equipment","VLAN100","LAB-PC01","Generic-Device","Operational"
