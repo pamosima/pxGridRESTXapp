@@ -1,5 +1,7 @@
 # pxGridRESTXapp
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/pamosima/pxGridRESTXapp)
+
 pxGridRESTXapp is a Flask-RESTX based API application that serves as an external REST API to provide JSON data for endpoint attributes in conjunction with Cisco pxGrid Direct for Cisco Identity Services Engine (ISE). It pulls the data from a CSV file named `pxgrid_direct.csv`, which serves as an alternative way to test the CMDB (Configuration Management Database) integration with pxGrid Direct.
 
 ## Background Information
@@ -60,9 +62,9 @@ To install and run the pxGridRESTXapp:
 
 10. Run the application:
 
-   ```
-   python RESTX_app.py
-   ```
+```
+python RESTX_app.py
+```
 
 ## Usage
 
