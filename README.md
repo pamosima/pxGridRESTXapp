@@ -12,7 +12,7 @@ When using pxGrid Direct, two mandatory fields, the Unique Identifier and the Co
 
 pxGridRESTXapp enables users to query and filter endpoint attribute data, providing a convenient method for accessing all items or only those that have been recently updated. This capability is especially valuable for network monitoring and analytics, as it allows for the integration of endpoint data into authorization policies and other workflows within Cisco ISE.
 
-![Demo of pxGridRESTXapp](img/MerakiRADKitDemo.gif)
+![Demo of pxGridRESTXapp](img/pxGridRESTXapp.gif)
 
 ## Installation
 
