@@ -48,16 +48,17 @@ To install and run the pxGridRESTXapp:
    pip install -r requirements.txt
    ```
 
-6. Modify parameters in RESTX_app.py:
-   By default, the application runs on `127.0.0.1:5000`. If you need to run the application on a different IP address or port, adjust the `app.run()` call in the `app.py` file with the desired host and port:
+6. Modify the `pxgrid_direct.csv` file with the corresponding endpoint information to ensure the data matches the endpoints you intend to work with.
 
-   ```
+7. Update the user-password pairs for HTTPBasicAuth as required in the `RESTX_app.py` file.
+
+8. Configure ISE pxGrid Direct based on the steps provided in the Cisco guide. Detailed instructions can be found at:
+   [Configure and Troubleshoot ISE 3.3 pxGrid Direct](https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine-33/221004-configure-and-troubleshoot-ise-3-3-pxgri.html)
+
+9. By default, the application runs on `127.0.0.1:5000`. If you need to run the application on a different IP address or port, adjust the `app.run()` call in the `RESTX_app.py` file with the desired host and port:
    app.run(host='desired_host_ip', port=desired_port, debug=True)
-   ```
 
-   Replace `desired_host_ip` with your machine's IP address or `0.0.0.0` to listen on all interfaces, and `desired_port` with the port number you wish to use.
-
-7. Run the application:
+10. Run the application:
 
    ```
    python RESTX_app.py
@@ -66,6 +67,8 @@ To install and run the pxGridRESTXapp:
 ## Usage
 
 Before making API calls, modify the `pxgrid_direct.csv` file with the corresponding endpoint information to reflect the data that you intend to provide to Cisco ISE.
+
+The application uses HTTPBasicAuth for authentication. Ensure that you have configured the appropriate user-password pairs and include the credentials in your API requests.
 
 After starting the application, the API endpoint available is:
 
